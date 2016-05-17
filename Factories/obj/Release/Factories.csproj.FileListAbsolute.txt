@@ -1,0 +1,9 @@
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Release\Factories.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Release\Factories.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Release\Common.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Release\Models.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Release\Common.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Release\Models.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Release\Factories.csprojResolveAssemblyReference.cache
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Release\Factories.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Release\Factories.pdb

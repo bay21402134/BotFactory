@@ -1,0 +1,4 @@
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Common\bin\Release\Common.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Common\bin\Release\Common.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Common\obj\Release\Common.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Common\obj\Release\Common.pdb

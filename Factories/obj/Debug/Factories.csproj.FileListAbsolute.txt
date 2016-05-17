@@ -1,0 +1,27 @@
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\bin\Debug\Factories.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\bin\Debug\Factories.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\bin\Debug\Common.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\bin\Debug\Models.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\bin\Debug\Common.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\bin\Debug\Models.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\obj\Debug\Factories.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory_Chalenge\BotFactory\Factories\obj\Debug\Factories.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Factories.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Factories.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Common.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Models.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Common.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Models.pdb
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Debug\Factories.dll
+C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Debug\Factories.pdb
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Factories.dll
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Factories.pdb
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Common.dll
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Models.dll
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Common.pdb
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\bin\Debug\Models.pdb
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Debug\Factories.dll
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\Factories\obj\Debug\Factories.pdb

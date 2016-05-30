@@ -21,7 +21,7 @@ namespace BotFactory.Factories
 
         Thread th;
 
-        int number;
+       
         public List<ITestingUnit> Storage
         {
             get
@@ -76,7 +76,7 @@ namespace BotFactory.Factories
         public void MachineDeConstruction()
         {
 
-            while ((_queue.Count()) > 0  && (_storage.Count() < StorageCapacity + 1))
+            while ((_queue.Count()) > 0 && (_storage.Count() < StorageCapacity + 1))
             {
                 ITestingUnit ropotTest = Activator.CreateInstance(_queue.First().Model, new object[] { }) as ITestingUnit;
                 ropotTest.Model = _queue.First().Name;
@@ -105,15 +105,15 @@ namespace BotFactory.Factories
                 FactoryQueueElement obj = new FactoryQueueElement(name, item, coordinates1, coordinates2);
                 _queue.Add(obj);
 
-                
+
                 if (th.IsAlive == false)
                 {
-                     
+
                     th = new Thread(MachineDeConstruction);
                     th.Start();
                 }
 
-                
+
             }
             else
             {

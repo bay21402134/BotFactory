@@ -80,27 +80,3 @@ C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\ob
 C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.csproj.GenerateResource.Cache
 C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.exe
 C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.pdb
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\BotFactory.exe.config
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\BotFactory.exe
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\BotFactory.pdb
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Common.dll
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Factories.dll
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Models.dll
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Common.pdb
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Factories.pdb
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Models.pdb
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.csprojResolveAssemblyReference.cache
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\MainWindow.g.cs
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\Pages\FactoryTest.g.cs
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\Pages\UnitTest.g.cs
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\App.g.cs
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory_MarkupCompile.cache
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory_MarkupCompile.lref
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\MainWindow.baml
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\Pages\FactoryTest.baml
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\Pages\UnitTest.baml
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.g.resources
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.Properties.Resources.resources
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.csproj.GenerateResource.Cache
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.exe
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.pdb

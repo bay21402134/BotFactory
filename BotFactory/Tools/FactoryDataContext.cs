@@ -3,20 +3,38 @@ using BotFactory.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
+using System.Reflection;
+
+using System.Threading.Tasks;
 
 namespace BotFactory.Tools
 {
     public class FactoryDataContext : INotifyPropertyChanged
     {
-        private List<Type> _models = new List<Type>() {typeof(HAL), typeof(R2D2), typeof(T_800), typeof(Wall_E) };
+
+
+       private List<Type> _models = new List<Type>() { typeof(HAL) };
+
+        
+
+        private List<Type> subclasses = (from assembly in AppDomain.CurrentDomain.GetAssemblies()
+                                         from type in assembly.GetTypes()
+                                         where type.IsSubclassOf(typeof(WorkingUnit))
+                                         select type).ToList();
+
+
+
+
+
 
         public List<Type> Models
         {
-            get { return _models; }
+            get { return subclasses; }
         }
 
         public String Name { get; set; }
-        
+
         private IUnitFactory _builder;
 
         public IUnitFactory Builder
@@ -146,7 +164,7 @@ namespace BotFactory.Tools
             OnPropertyChanged(propertyName.ToString());
             return true;
         }
-        
+
         #endregion
     }
 }

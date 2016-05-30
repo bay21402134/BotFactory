@@ -81,8 +81,6 @@ C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\ob
 C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.exe
 C:\Users\jebablia\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.pdb
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\BotFactory.exe.config
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.exe
-C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.pdb
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\BotFactory.exe
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\BotFactory.pdb
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\bin\Debug\Common.dll
@@ -104,3 +102,5 @@ C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFacto
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.g.resources
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.Properties.Resources.resources
 C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.csproj.GenerateResource.Cache
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.exe
+C:\Users\C17 Developer\Documents\Visual Studio 2015\Projects\BotFactory\BotFactory\obj\Debug\BotFactory.pdb

@@ -7,6 +7,12 @@ namespace BotFactory.Models
 {
     abstract public class WorkingUnit : BaseUnit, IWorkingUnit
     {
+
+        public WorkingUnit()
+        {
+
+        }
+
         public Coordinates ParkingPos
         {
             get;

@@ -4,8 +4,11 @@ using BotFactory.Interface;
 using BotFactory.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 using System.Threading;
+
 
 
 namespace BotFactory.Factories
@@ -15,6 +18,10 @@ namespace BotFactory.Factories
         public int QueueCapacity { get; private set; }
         public int StorageCapacity { get; private set; }
         private List<ITestingUnit> _storage;
+
+        Thread th;
+
+        int number;
         public List<ITestingUnit> Storage
         {
             get
@@ -37,6 +44,8 @@ namespace BotFactory.Factories
             set { }
         }
         private List<IFactoryQueueElement> _queue;
+
+
         public List<IFactoryQueueElement> Queue
         {
             get
@@ -52,13 +61,39 @@ namespace BotFactory.Factories
 
         }
 
+
         public UnitFactory(int a, int b)
         {
             QueueCapacity = a;
             StorageCapacity = b;
             _queue = new List<IFactoryQueueElement>();
             _storage = new List<ITestingUnit>();
+            th = new Thread(MachineDeConstruction);
+            th.Name = "Tread de Construction";
+        }
 
+
+        public void MachineDeConstruction()
+        {
+
+            while ((_queue.Count()) > 0  && (_storage.Count() < StorageCapacity + 1))
+            {
+                ITestingUnit ropotTest = Activator.CreateInstance(_queue.First().Model, new object[] { }) as ITestingUnit;
+                ropotTest.Model = _queue.First().Name;
+                ropotTest.ParkingPos = _queue.First().ParkingPos;
+                ropotTest.WorkingPos = _queue.First().WorkingPos;
+
+                lock (_object)
+                {
+                    Thread.Sleep(Convert.ToInt32(ropotTest.BuildTime) * 1000);
+                    _storage.Add(ropotTest);
+                    _queue.RemoveAt(_queue.Count - 1);
+                    QueueTime += DateTime.Now.AddSeconds(Convert.ToInt32(ropotTest.BuildTime)) - DateTime.Now;
+
+                    OnStatusChangedFactory(new StatusChangedEventArgs());
+                }
+
+            }
         }
 
         public void AddWorkableUnitToQueue(Type item, string name, Coordinates coordinates1, Coordinates coordinates2)
@@ -70,39 +105,32 @@ namespace BotFactory.Factories
                 FactoryQueueElement obj = new FactoryQueueElement(name, item, coordinates1, coordinates2);
                 _queue.Add(obj);
 
-                object tt = Activator.CreateInstance(item);
-                ITestingUnit ropotTest = Activator.CreateInstance(obj.Model, new object[] { }) as ITestingUnit;
-                ropotTest.Model = name;
-                ropotTest.ParkingPos = coordinates1;
-                ropotTest.WorkingPos = coordinates2;
-                Thread th = new Thread(() =>
-              {
+                
+                if (th.IsAlive == false)
+                {
+                     
+                    th = new Thread(MachineDeConstruction);
+                    th.Start();
+                }
 
-                  lock (_object)
-                  {
-                      Thread.Sleep(Convert.ToInt32(ropotTest.BuildTime) * 1000);
-                      _storage.Add(ropotTest);
-                      _queue.RemoveAt(_queue.Count - 1);
-                      QueueTime += DateTime.Now.AddSeconds(Convert.ToInt32(ropotTest.BuildTime)) - DateTime.Now;
-
-                      OnStatusChangedFactory(new StatusChangedEventArgs());
-                  }
-
-
-
-              });
-                th.Name = "Machine a construction";
-                th.Start();
-
+                
             }
             else
             {
                 Console.WriteLine("Impossible de construire plus de robot ");
+
+
             }
+
+
+
 
         }
 
 
-    }
 
+
+    }
 }
+
+
